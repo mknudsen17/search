@@ -109,3 +109,24 @@ textarea:active, input:active{
     outline: none;
 }
 
+#advanced_title{
+    margin: 35px 35px;
+    font-size: 20px;
+    color: #d93025;
+    font-family: arial,sans-serif;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#advanced_search{
+    font-family: arial,sans-serif;
+    margin-left: 35px;
+    
+}
+
+.search_button_advanced{
+    height: 30px;
+    min-width: 120px;
+    box-shadow: none;
+    background-color: #4787ed;
+    color: #fff;
+}
