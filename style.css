@@ -120,7 +120,11 @@ textarea:active, input:active{
 #advanced_search{
     font-family: arial,sans-serif;
     margin-left: 35px;
-    
+    width: 500px
+}
+
+#advanced_search input{
+    width: 100%
 }
 
 .search_button_advanced{
