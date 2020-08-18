@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="glogo.png" type="imagex/-icon">
         <title>Image Search</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <div>
-            <a href="index.html"><img src="logo.png" id="logo"></a>
+
+        <div class="links">
+            <a href="index.html" class="link">Search</a>
         </div>
-        <img src="logo.png" id="logo">
+        
+        <div class="logo_div">    
+            <img src="logo.png" class="logo">
+        </div>    
+
         <form action="https://google.com/images">
+            
             <input type="text" name="q" class="search_input">
-            <div>
-            <input type="submit" value="Image Search" class="search_button">
+
+            <div class="search_button">
+            <input type="submit" class="button" value="Image Search">
             </div>
+
         </form>
+
     </body>
+
 </html>
