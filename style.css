@@ -123,14 +123,26 @@ textarea:active, input:active{
     width: 500px
 }
 
-#advanced_search input{
-    width: 100%
-}
-
 .search_button_advanced{
     height: 30px;
     min-width: 120px;
     box-shadow: none;
     background-color: #4787ed;
     color: #fff;
+}
+
+.search_button_advanced:hover{
+    border: 1px solid #3079ed;
+}
+
+.advanced_search_input:focus{
+    border: 1px solid #4787ed;
+}
+
+.advanced_search_input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
 }
